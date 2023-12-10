@@ -21,7 +21,7 @@ class AuthController extends GetxController{
     }
     return userCredential;
   }
-  //signup Method here
+  //signup Method
   Future<UserCredential?> signupMethod({email,password,context}) async{
     UserCredential? userCredential;
 
